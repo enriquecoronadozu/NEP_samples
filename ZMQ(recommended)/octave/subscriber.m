@@ -9,7 +9,7 @@
 node = javaObject ("nep.Node", "octave_node")
 
 % ------------ Define subscriber -----------
-sub = node.new_sub("test", "json");
+sub = node.new_sub("test");
 
 % --------------- Read data ---------------
 %listen 10 samples

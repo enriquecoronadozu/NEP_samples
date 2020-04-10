@@ -9,7 +9,7 @@
 node = javaObject ("nep.Node", "octave_node")
 
 % ------------ Define subscriber -----------
-pub = node.new_pub("test", "json");
+pub = node.new_pub("test");
 
 
 for c = 1:5

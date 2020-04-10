@@ -1,11 +1,11 @@
-import nep.node;
+import nep.Node;
 
 % ---------------- New node ---------------
-node = nep.node("matlab");
+node = nep.Node("matlab");
 
 % ------------ Define publisher -----------
 % Direct
-%pub = node.new_sub("pub_sub_test", "127.0.0.1", 9090,"one2many");
+% pub = node.new_pub("pub_sub_test", "127.0.0.1", 9090,"one2many");
 % Using master
 pub = node.new_pub("pub_sub_test");
 

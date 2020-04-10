@@ -1,7 +1,7 @@
-import nep.node;
+import nep.Node;
 
 % ---------------- New node ----------------
-node = nep.node("matlab");
+node = nep.Node("matlab");
 
 % ------------ Define subscriber -----------
 % Direct
