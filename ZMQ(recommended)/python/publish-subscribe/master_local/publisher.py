@@ -19,7 +19,7 @@ while True:
     # --- JSON example ---
     if msg_type == "json":
         i = i + 1
-        msg =  data = {"message":"hola", "parameters":i}
+        msg =  data = {"message":"hello"}
         print ("sending: " + str(msg))
         pub.publish(msg) 
         time.sleep(1)
